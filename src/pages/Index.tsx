@@ -215,7 +215,7 @@ const Index = () => {
 
           {/* Section: Dados Pessoais */}
           <section
-            ref={(el) => { sectionRefs.current.pessoais = el; }}
+            ref={(el: HTMLDivElement | null) => { sectionRefs.current.pessoais = el; }}
             className="scroll-mt-28"
           >
             <div className="mb-5 flex items-center gap-2 text-foreground">
