@@ -231,7 +231,7 @@ const Index = () => {
           {/* Section: Responsáveis — conditional */}
           {isMenor && (
             <section
-              ref={(el) => { sectionRefs.current.responsaveis = el; }}
+              ref={(el: HTMLDivElement | null) => { sectionRefs.current.responsaveis = el; }}
               className="mt-16 scroll-mt-28 section-fade-in"
             >
               <div className="mb-5 flex items-center gap-2 text-foreground">
