@@ -247,7 +247,7 @@ const Index = () => {
 
           {/* Section: Matrícula */}
           <section
-            ref={(el) => { sectionRefs.current.matricula = el; }}
+            ref={(el: HTMLDivElement | null) => { sectionRefs.current.matricula = el; }}
             className="mt-16 scroll-mt-28"
           >
             <div className="mb-5 flex items-center gap-2 text-foreground">
